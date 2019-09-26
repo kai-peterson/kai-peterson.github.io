@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://goodstock.photos/wp-content/uploads/2017/10/Empty-Parking-Garage.jpg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#carsInGarage {
+  list-style: none;
+}
+
+.animatedImage {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {opacity: 0.0; width: 25px}
+  to {opacity: 1.0; width: 200px}
+}
+
+.garage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 19.5%;
+  margin-right: 15%;
+}
+
+.carItems {
+  padding: 15px;
+}
+
+.inputs {
+  background-color: darkred;
+  padding: 25px;
+  display: block;
+  margin: auto;
+  border: medium solid black;
+  margin-right: 26.7%;
+  margin-left: 25%;
+  margin-top: 30px;
+}
